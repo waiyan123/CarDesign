@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".MainActivity">
+
+        <!--<include-->
+        <!--android:id="@+id/toolbar"-->
+        <!--layout="@layout/tool_bar"-->
+        <!--/>-->
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/tool_bar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/white" >
+
+            <LinearLayout
+                android:weightSum="10"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+
+                <android.support.v7.widget.AppCompatImageView
+                    android:id="@+id/img_back"
+                    android:layout_weight="1"
+                    android:src="@drawable/ic_back"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content" />
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_weight="8"
+                    android:gravity="center"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:textAlignment="center"
+                        android:textColor="@color/blue"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                        android:text="@string/dubai"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:text="@string/time"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorMainSecondary"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+                <android.support.v7.widget.AppCompatImageView
+                    android:layout_weight="1"
+                    android:src="@android:drawable/ic_input_get"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="15dp"/>
+            </LinearLayout>
+
+        </android.support.v7.widget.Toolbar>
+
+    <View
+        android:background="@color/colorMainSecondary"
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"/>
+
+
+    <android.support.design.widget.TabLayout
+        android:id="@+id/tabs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:overScrollMode="never"
+        app:tabGravity="fill"
+        app:tabIndicatorHeight="2dp"
+        app:tabMode="fixed"
+        app:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:tabTextAppearance="@style/TextAppearance.Design.Tab"
+        app:tabTextColor="@color/colorMainSecondary"
+        app:tabSelectedTextColor="@color/black"/>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/pager"
+        android:background="@color/iconColorSecondary"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>

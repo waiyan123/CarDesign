@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Assignment3_CarDesign</string>
+    <string name="dubai">DUBAI</string>
+    <string name="time">Apr 3, 12pm to Apr 5, 12pm</string>
+    <string name="dollor">C$36</string>
+    <string name="avis">AVIS</string>
+    <string name="economy">Economy</string>
+    <string name="chevrolet_spark">Chevrolet Spark</string>
+
+    <string name="convertable"><strike> Convertable </strike> </string>
+</resources>
