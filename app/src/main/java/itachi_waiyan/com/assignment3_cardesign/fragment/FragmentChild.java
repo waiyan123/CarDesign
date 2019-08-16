@@ -11,7 +11,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import itachi_waiyan.com.assignment3_cardesign.CarDetailActivity;
+import itachi_waiyan.com.assignment3_cardesign.activities.CarDetailActivity;
 import itachi_waiyan.com.assignment3_cardesign.R;
 import itachi_waiyan.com.assignment3_cardesign.adapter.RvAdapter;
 import itachi_waiyan.com.assignment3_cardesign.delegate.EventItemDelegate;

@@ -1,10 +1,12 @@
-package itachi_waiyan.com.assignment3_cardesign;
+package itachi_waiyan.com.assignment3_cardesign.activities;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.ImageView;
+
+import itachi_waiyan.com.assignment3_cardesign.R;
 
 public class CarDetailActivity extends AppCompatActivity {
 

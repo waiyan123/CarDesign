@@ -1,4 +1,4 @@
-package itachi_waiyan.com.assignment3_cardesign;
+package itachi_waiyan.com.assignment3_cardesign.activities;
 
 import android.support.annotation.Nullable;
 import android.support.design.widget.TabLayout;
@@ -17,6 +17,7 @@ import android.widget.ImageView;
 import java.util.ArrayList;
 import java.util.List;
 
+import itachi_waiyan.com.assignment3_cardesign.R;
 import itachi_waiyan.com.assignment3_cardesign.adapter.MyPagerAdapter;
 import itachi_waiyan.com.assignment3_cardesign.adapter.RvAdapter;
 import itachi_waiyan.com.assignment3_cardesign.fragment.FragmentChild;
